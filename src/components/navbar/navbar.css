@@ -1,0 +1,44 @@
+@import url("../css/dropdown.css");
+.nav-item a {
+  transition: all 0.3s;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.nav-item a:hover {
+  transition: all 0.3s;
+}
+
+.nav-item a:hover {
+  color: #a07cfc;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #a07cfc;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #a07cfc;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.navbar-brand >img {
+  margin-left: 26px;
+}

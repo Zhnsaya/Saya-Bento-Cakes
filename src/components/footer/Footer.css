@@ -1,0 +1,8 @@
+.footer-section-header {
+  font-family: monospace;
+}
+
+.list-unstyled li a {
+  color: rgba(255, 255, 255, 0.57);
+  text-decoration: none;
+}

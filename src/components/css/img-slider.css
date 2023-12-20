@@ -1,0 +1,36 @@
+#carouselMainPageIndicators {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#accountDropDown {
+  margin-right: 15px;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align:center;
+}
+
+.carousel-caption h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10vh;
+}
+
+.carousel-caption a {
+  background-color: palevioletred;
+  color: white;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  width: 20vh;
+  height: 9vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}

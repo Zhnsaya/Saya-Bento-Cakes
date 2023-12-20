@@ -1,0 +1,43 @@
+.cakeDetails {
+  margin-top: 100px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cakeDetails h2 {
+  color: #333;
+}
+
+.cakeDetails img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.cakeDetails p {
+  margin-bottom: 10px;
+}
+
+.cakeDetails ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cakeDetails ul li {
+  margin-bottom: 5px;
+}
+
+.cakeDetails a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.cakeDetails a:hover {
+  text-decoration: underline;
+}
